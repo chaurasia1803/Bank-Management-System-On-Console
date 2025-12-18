@@ -1,2 +1,43 @@
-# Auto detect text files and perform LF normalization
+# -----------------------------
+# Text files normalization
+# -----------------------------
 * text=auto
+
+# -----------------------------
+# Python source files
+# -----------------------------
+*.py text eol=lf
+
+# -----------------------------
+# Data files (file handling)
+# -----------------------------
+*.txt text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.dat text eol=lf
+
+# -----------------------------
+# Documentation
+# -----------------------------
+*.md text eol=lf
+
+# -----------------------------
+# Ignore binary treatment
+# -----------------------------
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# -----------------------------
+# Compiled / cache files
+# -----------------------------
+*.pyc binary
+__pycache__/ linguist-generated
+
+# -----------------------------
+# OS specific files
+# -----------------------------
+.DS_Store binary
+Thumbs.db binary
